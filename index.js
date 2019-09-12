@@ -11,7 +11,7 @@ const fetchVideoInfo = require("youtube-info");
 const initcmd = botSettings.initcmd;
 const ytApiKey = botSettings.AIzaSyDXsAT7Bi-uY07llBlXkBEj_xHTEvZdnm4;
 const youtube = new YouTube(AIzaSyDXsAT7Bi-uY07llBlXkBEj_xHTEvZdnm4);
-const botn3k4a= ['ID']; // الايدي بتاعك انتا ووالادارة
+const botn3k4a= ['436918120184021012']; // الايدي بتاعك انتا ووالادارة
 // By : n3k4a. || نعكشا
 const bot = new Discord.Client({
 	disableEveryone: true
@@ -61,7 +61,7 @@ bot.on('message', message => {
 
 bot.on('ready', () => {
 	// -
-  bot.user.setActivity("Toxic Codes n3k4a <3",{type: 'WATCHING'});
+  bot.user.setActivity("!help, Please.",{type: 'WATCHING'});
   console.log('            ╔[════════════]╗');
   console.log('              Bot Is Online');
   console.log('            ╚[════════════]╝');
